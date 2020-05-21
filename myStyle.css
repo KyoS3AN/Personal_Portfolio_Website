@@ -55,7 +55,7 @@ ul {
     list-style-type: none;
     padding: 1rem;
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
 }
  
 p,h1 {
@@ -85,9 +85,17 @@ footer {
  
 body {
     background-color: #E3E4E6;
-    padding: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
 }   
  
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (max-width:800px){
     body{
         font-size: 20px;
@@ -97,12 +105,23 @@ body {
         width: 100%;
     }
 }
- 
+
+@media only screen and (max-width:800px){
+
+    ul{
+        font-size: 7px;
+    }
+}
+
 @media only screen and (min-width:801px) and (max-width:1280px){
     body{
         font-size: 30px;
     }
  
+    ul{
+        font-size: 10px;
+    }
+
     .col-3{
        width: 50%;
     }
